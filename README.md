@@ -1,8 +1,10 @@
 # tcpIpServer
 tcpIpServer
 
-post http://localhost:8080/2thrift
-
+router  
+post http://localhost:8080/2thrift  
+post http://localhost:8080/somePost  
+get http://localhost:8080/someGet  
 
 
 
